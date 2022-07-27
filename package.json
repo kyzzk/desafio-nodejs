@@ -6,7 +6,7 @@
   },
   "name": "desafio-nodejs",
   "version": "1.0.0",
-  "main": ".root/server.js",
+  "main": "./root/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./root/server.js"
