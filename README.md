@@ -18,9 +18,10 @@
 
 Mande uma requisição POST para o URL: "localhost:3000/CEP". (3000 é a porta padrão do projeto, pode ser alterada)
 É preciso informar um Authorization Basic Auth nas Headers para ter acesso a resposta da requisição.
-Link para exemplo no Postman: [teste](https://www.postman.com/kyzzk/workspace/desafio-nodejs/collection/19365080-4e75e4cf-584c-4718-817c-3b0b9f60b7a6?action=share&creator=19365080)
 
-Usuários que podem ser usados:
+Link para exemplo no Postman: [Click Aqui!](https://www.postman.com/kyzzk/workspace/desafio-nodejs/collection/19365080-4e75e4cf-584c-4718-817c-3b0b9f60b7a6?action=share&creator=19365080)
+
+**Usuários que podem ser usados:**
 
 - Username: normal_user
 - Password: 1234
