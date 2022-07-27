@@ -7,22 +7,31 @@
 - Usar uma solução de cache para que se o mesmo CEP for digitado em um intervalo de até cinco minutos, não ir para o ViaCEP e buscar os dados diretamente do cache.
 - Sinalizar no retorno da requisição se o dado está vindo do ViaCep ou do cache.
 
+-
 ### Dependencias Node.JS:
 - express
 - axios
 - memory-cache
 
+-
 ### Exemplo de requisição:
 
 Mande uma requisição POST para o URL: "localhost:3000/CEP". (3000 é a porta padrão do projeto, pode ser alterada)
 É preciso informar um Authorization Basic Auth nas Headers para ter acesso a resposta da requisição.
+Link para exemplo no Postman: [teste](https://www.postman.com/kyzzk/workspace/desafio-nodejs/collection/19365080-4e75e4cf-584c-4718-817c-3b0b9f60b7a6?action=share&creator=19365080)
 
 Usuários que podem ser usados:
-- 
+
+- Username: normal_user
+- Password: 1234
+
+- Username: admin_user
+- Password: 1234
 
 
 "CEP" deve ser substituído pelo CEP de 8 digitos que deseja fazer a pesquisa, exemplo: "/12345678". O CEP pode ser informado de todas as formas possíveis: "12.345-678", "12345-678" ou "12345678".
 
+-
 ## Respostas da API
 
 Usuário inexistente ou senha incorreta retornará um status 401 (Unauthorized)
@@ -64,7 +73,7 @@ Requisição vinda direto do site "ViaCep".
   "fonte: "Cache"
 }
 ```
-Requisição salva em cache.
+Requisição salva no seu "Cache".
 
 CEP inexistente ou incorreto retornará um status 400 (Bad Request).
 ```
