@@ -36,7 +36,7 @@ Link para exemplo no Postman: [Click Aqui!](https://www.postman.com/kyzzk/worksp
 "CEP" deve ser substituído pelo CEP de 8 digitos que deseja fazer a pesquisa, exemplo: "/12345678". O CEP pode ser informado de todas as formas possíveis: "12.345-678", "12345-678" ou "12345678".
 
 
-## Respostas da API
+## Respostas da API:
 
 Usuário inexistente ou senha incorreta retornará um status 401 (Unauthorized)
 ```
